@@ -1,0 +1,41 @@
+Tout d'abord, clonez le dépot sur votre machine.
+
+Si vous installez ce projet sur une machine quelconque, vous devrez tout
+d'abord avoir une base de données dans laquelle vous enregistrerez les données
+contenues dans le fichier mywishlist.sql 
+
+Dans le dossier src/ vous devrez creer un dossier conf et dedans un fichier
+conf.ini contenant vos informations de connexion a la base de données.
+
+Dans le dossier source vous devrez aussi utiliser la commande
+composer install
+afin de telecharger les fichiers necessaires au fonctionnement de
+l'application.
+
+Puis retourner dans la racine du projet et créez un fichier .htaccess
+qui suivra ce schéma :
+
+---- Début ----
+
+RewriteEngine On
+
+RewriteBase 'Le lien des dossiers jusqu'a celui qui contient l'index.php'
+
+# Pour interdire l'accès aux répertoires contenant du code
+RewriteRule ^sql(/.*|)$ - [NC,F]
+RewriteRule ^src(/.*|)$ - [NC,F]
+RewriteRule ^vendor(/.*|)$ - [NC,F]
+
+#
+# réécriture pour slim
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+#Pour afficher les erreurs
+#php_flag display_errors 1
+
+---- Fin ----
+
+Vous pourrez ensuite enfin lancer le site 

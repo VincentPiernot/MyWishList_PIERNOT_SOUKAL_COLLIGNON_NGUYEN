@@ -1,0 +1,38 @@
+Les données permettants de tester les fonctionnalitees sont deja dans la base
+Un compte par defaut est le compte "admin" avec pour mot de passe "adminadmin".
+Il contient 3 listes publiques avec des items déjà crées dedans.
+
+Nous avons réalisé les 28 fonctionnalitées données sur arche (indiquées dans le tableau de bord).
+Nous avons aussi rajouter la possibilité à un utilisateur de remettre une liste publique en privée et
+de changer un item avec cagnotte en item normal à nouveau (s'il n'y a pas de réservations).
+Un utilisateur peut aussi se deconnecter s'il le souhaite.
+Il faut aussi noter que l'on a fait le choix de traiter le compte participant et créateurs comme
+un seul et même type de compte contenant les fonctionnalitées présentes dans les 2.
+
+Ainsi en arrivant sur le site, vous pouvez :
+
+Créer une nouvelle liste
+Avoir la liste des listes publiques
+Avoir la liste des créateurs
+
+Si vous etes déconnecté vous pouvez vous inscrire ou vous connecter.
+
+Si vous etes deja connectés vous avez accès à d'autres options :
+Voir vos propres listes (et en ajouter de nouvelles si vous avez leur lien de modification)
+Voir vos participations sur des listes
+Modifier votre compte (changer le mot de passe ou le supprimer)
+Vous deconnecter
+
+Une fois une liste crée vous pouvez modifier les champs, ajouter des items, la modifier, Generer
+un lien de partage, la rendre publique (ou privée) et la supprimer (si aucun item n'est réservé)
+grace a son lien de modification.
+
+Vous pouvez aussi modifier vos items ou les supprimer (s'ils ne sont pas réservés)
+Dans la modification vous pouvez modifier les champs, lancer une cagnotte (ou l'annuler) et
+ajouter une url pour la description, ainsi qu'un lien vers une image (du dossier web ou une url publique).
+Vous pouvez aussi uploader votre propre image.
+
+Si vous accedez à une liste via son url de partage ou alors parce qu'elle est publique Vous
+pouvez ajouter un message à cette liste ou reserve les items qui ne le sont pas encore.
+Si l'item fonctionne par cagnotte vous pouvez ajouter de l'argent dedans jusqu'a ce que la
+cagnotte soit pleine (1 participation par personne).
