@@ -1,0 +1,11 @@
+/src/conf/conf.ini
+src/conf/conf.ini
+*/conf/conf.ini
+*/conf.ini
+*.ini
+src/conf
+/src/conf
+conf.ini
+src/vendor/*
+.htaccess 
+.lock

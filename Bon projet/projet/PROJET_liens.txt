@@ -1,0 +1,5 @@
+Lien du site sur webetu :
+https://webetu.iutnc.univ-lorraine.fr/www/gandioll4u/s3d_mywishlist_lavandier_bigeon_gandiolle_noirjean_nguyen/
+
+Lien de notre dépot git :
+https://bitbucket.org/DrizztLegend/s3d_mywishlist_lavandier_bigeon_gandiolle_noirjean_nguyen/src/master/

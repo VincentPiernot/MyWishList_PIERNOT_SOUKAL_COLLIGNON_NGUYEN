@@ -1,0 +1,43 @@
+Fonctionnalitées (toutes réalisées à 100%) :
+
+1 Afficher une liste de souhaits : Benjamin Lavandier
+2 Afficher un item d'une liste : Benjamin Lavandier
+3 Réserver un item : Noirjean Sacha
+4 Ajouter un message avec sa réservation : Noirjean Sacha
+5 Ajouter un message sur une liste : Noirjean Sacha
+6 Créer une liste : Bigeon Emmanuel 
+7 Modifier les informations générales d'une de ses listes : Bigeon Emmanuel 
+8 Ajouter des items : Gandiolle Eliott
+9 Modifier un item : Gandiolle Eliott
+10 Supprimer un item : Gandiolle Eliott
+11 Rajouter une image à un item : NGuyen Hoang Anh
+12 Modifier une image d'un item : NGuyen Hoang Anh
+13 Supprimer une image d'un item : NGuyen Hoang Anh
+14 Partager une liste : Bigeon Emmanuel 
+15 Consulter les réservations d'une de ses listes avant échéance : Noirjean Sacha
+16 Consulter les réservations et messages d'une de ses listes après échéance : Noirjean Sacha
+
+Extensions :
+
+17 Créer un compte : Gandiolle Eliott
+18 S'authentifier : Gandiolle Eliott
+19 Modifier son compte : Benjamin Lavandier
+20 Rendre une liste publique : Bigeon Emmanuel 
+21 Afficher les listes de souhaits publiques : Benjamin Lavandier
+22 Créer une cagnotte sur un item : NGuyen Hoang Anh
+23 Participer à une cagnotte : NGuyen Hoang Anh
+24 Uploader une image : Gandiolle Eliott
+25 Créer un compte participant : Gandiolle Eliott
+26 Afficher la liste des créateurs : Benjamin Lavandier
+27 Supprimer son compte : Gandiolle Eliott
+28 Joindre des listes à son compte : Noirjean Sacha
+
+Ajouts
+
+29 Deconnexion : Noirjean Sacha
+30 Rendre une liste privée : Bigeon Emmanuel 
+31 Enlever le systeme par cagnotte d'un item : NGuyen Hoang Anh
+
+CSS : Lavandier NGuyen Noirjean
+Certaines fonctionnalitées allant plus vite que d'autres, chaque personne a participé à des fonctionnalitées
+qui n'étaient pas les siennes
